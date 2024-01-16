@@ -1,0 +1,33 @@
+* {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(7, 7, 39);
+    color: rgb(201, 201, 154);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+button {
+    background-color:  rgb(201, 201, 154);
+    color: rgb(30, 102, 136);
+    font-weight:bolder;
+    border-radius: 10%;
+    font-size: 16px;
+    height: 30px;
+}
+
+button:hover {
+    box-shadow: 0px 0px 15px rgb(223, 223, 27);
+}
+
+.viewHeader{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    /* justify-content: end; */
+    margin-right: 4%;
+}
+
